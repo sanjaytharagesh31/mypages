@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+  <title>sanjay's blog</title>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    body {
+      width: 600px;
+      margin: 0 auto;
+    
+    }
+    header {
+      text-align: center;
+      background: url('http://cdn.wonderfulengineering.com/wp-content/uploads/2014/04/code-wallpaper-2.jpg');
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 100px;
+      height: 150px;
+      width: 150px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://d13yacurqjgara.cloudfront.net/users/375867/screenshots/1659001/shadow-boy-game-character-sprite-sheet-sidescroller-limbo-stickman-game-asset-flying-flappy-animation-gui-mobile-games-gameart-game-art-590.gif">
+    <h1>sanjay's Blog</h1>
+    <ul>
+      <li><a href="#">My Interests</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Computer programming</h2>
+    <p>Computer programming is a process that leads from an original formulation of a computing problem to executable computer programs. Source code is written in one or more programming languages. The purpose of programming is to find a sequence of instructions that will automate performing a specific task or solving a given problem.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Free and open-source software</h2>
+    <p>Free and open-source software (FOSS) is computer software that can be classified as both free software and open-source software. That is, anyone is freely licensed to use, copy, study, and change the software in any way, and the source code is openly shared so that people are encouraged to voluntarily improve the design of the software. This is in contrast to proprietary software, where the software is under restrictive copyright and the source code is usually hidden from the users.</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
+
