@@ -12,7 +12,7 @@ body {
     width: 600px;
     border-radius: 10px;
     border: 2px solid #ccffcc;
-    background-image: url("propic.jpg");
+    background-image: url("images/propic.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
