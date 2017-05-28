@@ -8,6 +8,10 @@ body {
     width: 600px;
 }
 
+.cover {
+    background-color: white;
+} 
+
 #intro {
     width: 600px;
     border-radius: 10px;
