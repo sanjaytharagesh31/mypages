@@ -5,15 +5,15 @@
 body {
     margin: 0 auto;
     background-color: aliceblue;
-    width: 600px;
+    width: 700px;
 }
 
 .cover {
     background-color: white;
+    width: 100%;
 } 
 
 #intro {
-    width: 600px;
     border-radius: 10px;
     border: 2px solid #ccffcc;
     background-image: url("images/propic.jpg");
@@ -54,7 +54,6 @@ img {
 
 .question {
     height: 300px;
-    width: inherit;
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
