@@ -13,12 +13,12 @@ body {
     width: 100%;
 } 
 
-#intro {
+.intro {
     border-radius: 10px;
     border: 2px solid #ccffcc;
     background-image: url("images/propic.jpg");
     background-size: 100% 100%;
-    background-repeat: no-repeat;
+    width: 700px;
 }
 
 .pro {
@@ -33,13 +33,13 @@ h2.pro {
 }
 
 h3 {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 p {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 img {
@@ -57,8 +57,7 @@ img {
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    overflow-y: scroll;
-    
-    
+    overflow-y: scroll; 
+    background-color: white;
 }
 
