@@ -1,4 +1,4 @@
-/* {
+ /* {
     border: 1px solid red;
 } */
 
@@ -14,7 +14,7 @@ body {
 } 
 
 .intro {
-    border-radius: 10px;
+    padding: 5px 0 5px 0;
     border: 2px solid #ccffcc;
     background-image: url("images/propic.jpg");
     background-size: 100% 100%;
@@ -54,10 +54,11 @@ img {
 
 .question {
     height: 300px;
-    border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
     overflow-y: scroll; 
     background-color: white;
+    padding: 5px 0 5px 0;
+    background: linear-gradient(white,black);
 }
 
