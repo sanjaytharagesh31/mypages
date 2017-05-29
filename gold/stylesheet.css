@@ -1,24 +1,19 @@
- /* {
+/* {
     border: 1px solid red;
-} */
+} */ 
 
 body {
     margin: 0 auto;
-    background-color: aliceblue;
+    background-color: royalblue;
     width: 700px;
 }
 
-.cover {
-    background-color: white;
-    width: 100%;
-} 
-
 .intro {
     padding: 5px 0 5px 0;
-    border: 2px solid #ccffcc;
     background-image: url("images/propic.jpg");
     background-size: 100% 100%;
     width: 700px;
+    background-clip: content-box;
 }
 
 .pro {
@@ -33,8 +28,10 @@ h2.pro {
 }
 
 h3 {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 15px 15px 15px 15px;
+    background: rgba(0,0,0,0.1);
+    font-family: New Century Schoolbook;
+    
 }
 
 p {
@@ -52,13 +49,19 @@ img {
     
 }
 
+
+
 .question {
     height: 300px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    overflow-y: scroll; 
-    background-color: white;
+    margin-bottom: 10px; 
     padding: 5px 0 5px 0;
-    background: linear-gradient(white,black);
+    background-color: azure;
+    box-shadow: 1px 1px 7px white;
+}
+
+.answer {
+    overflow: auto;
+    height: 210px;
+    font-family: sans-serif;
 }
 
