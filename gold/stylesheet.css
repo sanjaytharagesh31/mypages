@@ -13,7 +13,7 @@ body {
     background-image: url("images/propic.jpg");
     background-size: 100% 100%;
     width: 700px;
-    background-clip: content-box;
+    background-clip: content-box; 
 }
 
 .pro {
