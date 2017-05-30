@@ -50,8 +50,14 @@ img {
     
 }
 
-
-
+.description {
+    height: 200px;
+    padding: 0px 0 5px 0;
+    background-color: azure;
+    box-shadow: 1px 1px 7px white;
+    overflow: auto;
+    margin-top: 10px;
+}
 .question {
     height: 250px;
     margin-bottom: 10px; 
