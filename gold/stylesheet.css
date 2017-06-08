@@ -50,7 +50,7 @@ img {
 
 .description {
     height: 200px;
-    padding: 0px 0 5px 0;
+    padding: 0px 25px 5px 25px;
     background-color: azure;
     box-shadow: 1px 1px 2px white;
     overflow: auto;
