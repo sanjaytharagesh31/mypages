@@ -38,11 +38,6 @@ h3 {
     background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.3));
 }
 
-p {
-    padding-left: 25px;
-    padding-right: 25px;
-}
-
 img {
     width: 150px;
     height: 150px;
@@ -59,12 +54,12 @@ img {
     background-color: azure;
     box-shadow: 1px 1px 2px white;
     overflow: auto;
-    margin-top: 1px;
+    margin-top: 6px;
 }
 .question {
     height: 250px;
     margin-top: 1px; 
-    padding: 0px 0 5px 0;
+    padding: 0;
     background-color: azure;
     box-shadow: 1px 1px 2px white; 
 }
@@ -73,5 +68,7 @@ img {
     overflow: auto;
     height: 136px;
     font-family: sans-serif;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
