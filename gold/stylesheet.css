@@ -4,7 +4,10 @@
 
 body {
     margin: 0 auto;
-    background-color: royalblue;
+    background-image: url("images/Web-Design.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     width: 700px;
 }
 
@@ -32,7 +35,7 @@ h3 {
     font-family: New Century Schoolbook;
     overflow-y: auto;
     height: 50px;
-    background: -moz-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.3));
+    background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.3));
 }
 
 p {
