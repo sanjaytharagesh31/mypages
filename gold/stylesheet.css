@@ -73,3 +73,13 @@ img {
     color: dimgrey;
 }
 
+.footer {
+    width: 100%;
+    border: 1px solid black;
+    background-color: cornsilk;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
