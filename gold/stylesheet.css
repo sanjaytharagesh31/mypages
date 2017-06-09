@@ -55,6 +55,7 @@ img {
     box-shadow: 1px 1px 2px white;
     overflow: auto;
     margin-top: 6px;
+    line-height: 22px;
 }
 .question {
     height: 250px;
