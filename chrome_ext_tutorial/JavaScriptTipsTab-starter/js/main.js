@@ -55,6 +55,14 @@ function onTipButtonClick() {
     var tipButton = document.querySelector('.tip-button');
     tipButton.addEventListener('click', function () {
   console.log('Hi, I am clippy, your helpful office assistant!');
+        tipLimit = tipLimit - 1;
+        if(tipLimit >= 0){
+            generateTip();
+            if(tipLimit === 0){
+                tipButton.innerHTML = 'See you in another tab';
+                tipButton.classList.add('disabled');
+            }
+        }
     });
 }
 onTipButtonClick();
