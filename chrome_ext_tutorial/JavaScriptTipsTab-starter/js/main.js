@@ -35,7 +35,9 @@ function generateNumber() {
 // 1. Get random number from generateNumber()
 // 2. Use the random number to get the tip from the array
 // 3. Show the tip
-
+function generateTip() {
+    var tip = tipsList[generateNumber()];
+}
 
 // Tip button click
 // 1. Select the tip button
