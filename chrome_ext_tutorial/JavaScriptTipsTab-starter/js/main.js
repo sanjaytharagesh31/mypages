@@ -27,7 +27,9 @@ var tipsList = [
 
 
 // Generate a number
-
+function generateNumber() {
+    return Math.floor(Math.random() * tipsList.length);
+}
 
 // Generate a tip:
 // 1. Get random number from generateNumber()
