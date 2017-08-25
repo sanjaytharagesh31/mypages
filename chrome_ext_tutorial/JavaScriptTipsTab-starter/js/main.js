@@ -51,6 +51,12 @@ function generateTip() {
 // 3b. If the tipLimit is still above or equal to 0, generate a new tip
 // 3c. If not, change the button text and look
 
-
+function onTipButtonClick() {
+    var tipButton = document.querySelector('.tip-button');
+    tipButton.addEventListener('click', function () {
+  console.log('Hi, I am clippy, your helpful office assistant!');
+    });
+}
+onTipButtonClick();
 // Get the first tip
 generateTip();
